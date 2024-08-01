@@ -1,10 +1,12 @@
 .container-fluid {
   margin: auto;
   text-align: center;
+  align-items: center;
 }
 
 .dice {
   text-align: center;
+  align-items: center;
 
 }
 
@@ -27,7 +29,7 @@ p {
 }
 
 img {
-  width: 70%;
+  width: 40%;
 }
 
 footer {
@@ -38,5 +40,4 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-
 }

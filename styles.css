@@ -45,3 +45,7 @@ footer {
 .navbar-brand {
   padding-left: 10px;
 }
+
+.nav-link {
+  padding-left: 20px;
+}

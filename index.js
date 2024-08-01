@@ -11,7 +11,7 @@ function rollDice() {
         if (randomNum1 > randomNum2) {
             document.querySelector("h1").textContent="🚩Player 1 Wins";
         } else if (randomNum1 < randomNum2) {
-            document.querySelector("h1").textContent="Player 2 Wins 🚩";
+            document.querySelector("h1").textContent="Player 2 Wins🚩";
         } else {
             console.log("huh?");
         }
@@ -23,4 +23,4 @@ function rollDice() {
 
 }
 
-rollDice();
+document.getElementById("myButton").addEventListener("click", rollDice);

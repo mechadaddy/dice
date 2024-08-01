@@ -41,3 +41,7 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+.navbar-brand {
+  padding-left: 10px;
+}
